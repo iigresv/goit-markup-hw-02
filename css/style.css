@@ -3,8 +3,7 @@ page
 page-header
 logo
 logo-text
-header-nav
-header-contacts
+list
 hero
 hero-title
 hero-btn
@@ -19,12 +18,10 @@ team
 team-maintitle
 team-title
 team-text
-page-footer
+footer
  */
 
  /* name of classes portfolio */
-
-
 
 
 
@@ -39,24 +36,57 @@ page-footer
     --footer-bgc: rgba(47, 48, 58, 1);
 }
 
+/* global */
+
 body {
     background-color: var(--main-bgc);
     color: var(--primary-text-color);
 }
 
-/* header */
-
+/* header*/
+.page-header {
+    background-color: var(--main-bgc);
+}
+.logo {
+color: var(--title-text-color);
+}
+.logo-text {
+    color: var(--title-text-color);
+}
+.list {
+    list-style: none;
+}
 /* main */
 
 /* hero */
+.hero {
+    background-color: var(--hero-bgc);
+}
 
 /* advantages */
-
+.advantages-title {
+    color: var(--title-text-color);
+}
 /* about */
-
+.about-title {
+    color: var(--title-text-color);
+}
 /* team */
+.team {
+    background-color: var(--section-team-bgc);
+}
+.team-maintitle {
+    color: var(--title-text-color);
+}
+
+.team-title {
+    color: var(--title-text-color);
+}
 
 /* end of page */
+.footer {
+    background-color: var(--footer-bgc);
+}
 
 
 
