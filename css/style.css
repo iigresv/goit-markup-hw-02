@@ -1,0 +1,62 @@
+/* names of classes index
+page
+page-header
+logo
+logo-text
+header-nav
+header-contacts
+hero
+hero-title
+hero-btn
+advantages
+hidden
+advantages-title
+advantages-text
+about
+about-title
+about-img
+team
+team-maintitle
+team-title
+team-text
+page-footer
+ */
+
+ /* name of classes portfolio */
+
+
+
+
+
+:root {
+    --main-bgc: #ffffff;
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --hero-bgc: rgba(47, 48, 58, 1);
+    --section-bgc: #F5F5F5;
+    --section-team-bgc: rgba(245, 244, 250, 1);
+    --footer-bgc: rgba(47, 48, 58, 1);
+}
+
+body {
+    background-color: var(--main-bgc);
+    color: var(--primary-text-color);
+}
+
+/* header */
+
+/* main */
+
+/* hero */
+
+/* advantages */
+
+/* about */
+
+/* team */
+
+/* end of page */
+
+
+
