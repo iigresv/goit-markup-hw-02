@@ -10,7 +10,6 @@
 .header-nav .link:hover,
 .header-nav .link:focus
 .header-nav .current
-.header-nav .mail
 .hero
 .hero-title
 .hero-btn
@@ -110,10 +109,6 @@ color: var(--main-bgc);
     color: var(--accent-color);
 }
 .header-nav .current {
-color: var(--accent-color);
-}
-
-.header-nav .mail {
 color: var(--accent-color);
 }
 
